@@ -3,36 +3,34 @@ A bookstore management system developed for the Fawry N² Dev Slope #10 Challeng
 ## Project Structure
 
     src/
-    
-        contracts/
-            IPurchaseStrategy.java
-            
-        entities/
-            Book.java
-            PurchasableBook.java
-            PaperBook.java
-            EBook.java
-            DemoBook.java
-            BookStore.java
-            Customer.java
-            
-        enums/
-            FileType.java
-            
-        exceptions/
-            BookNotFoundException.java
-            InSufficientQuantityException.java
-            InSufficientFundsException.java
-            NonPurchasableBookException.java
-            
-        services/
-            PaymentService.java
-            
-        value_objects/
-            Address.java
-            
-        BookstoreFullTest.java
-        Main.java
+    ├── contracts/
+    │   └── IPurchaseStrategy.java
+    |
+    ├── entities/
+    │   ├── Book.java
+    │   ├── PurchasableBook.java
+    │   ├── PaperBook.java
+    │   ├── EBook.java
+    │   ├── DemoBook.java
+    │   ├── BookStore.java
+    │   └── Customer.java
+    |
+    ├── enums/
+    │   └── FileType.java
+    ├── exceptions/
+    │   ├── BookNotFoundException.java
+    │   ├── InSufficientQuantityException.java
+    │   ├── InSufficientFundsException.java
+    │   └── NonPurchasableBookException.java
+    |
+    ├── services/
+    │   └── PaymentService.java
+    |
+    ├── value_objects/
+    │   └── Address.java
+    |
+    ├── BookstoreFullTest.java
+    └── Main.java
 
 
 ## Test Scenarios
