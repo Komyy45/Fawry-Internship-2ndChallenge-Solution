@@ -4,7 +4,7 @@ A bookstore management system developed for the Fawry N² Dev Slope #10 Challeng
 
     src/
     ├── contracts/
-    │   └── IPurchaseStrategy.java
+    │   └── DeliveryStrategy.java
     |
     ├── entities/
     │   ├── Book.java
@@ -13,15 +13,21 @@ A bookstore management system developed for the Fawry N² Dev Slope #10 Challeng
     │   ├── EBook.java
     │   ├── DemoBook.java
     │   ├── BookStore.java
+    |   ├── EmailDeliveryStrategy.java
+    |   ├── ShippingDeliveryStrategy.java
     │   └── Customer.java
     |
     ├── enums/
     │   └── FileType.java
+    |
     ├── exceptions/
     │   ├── BookNotFoundException.java
     │   ├── InSufficientQuantityException.java
     │   ├── InSufficientFundsException.java
     │   └── NonPurchasableBookException.java
+    |
+    ├──  factories/
+    │   └── DeliveryStrategyFactory.java
     |
     ├── services/
     │   └── PaymentService.java
